@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Moodle ID Filler",
+  "description": "Moodle ID Filler",
+  "homepage_url": "https://nidp.tau.ac.il/nidp/saml2/sso?id=10&sid=0&option=credential&sid=0",
+  "version": "1.0",
+  "browser_action": {
+      "default_title": "Autofill!!!",
+      "default_popup": "index.html",
+"default_icon": "icons/Mobile-M-Icon-1-corners.png"
+  },
+  "permissions": [
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+  ]
+}
